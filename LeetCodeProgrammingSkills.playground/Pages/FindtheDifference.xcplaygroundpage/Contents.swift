@@ -15,23 +15,25 @@
 import Foundation
 class Solution {
     func findTheDifference(_ s: String, _ t: String) -> Character {
-        
+        //sorting the strings so they are both starting at the same point
         let s_string1 = s.sorted()
         let t_string2 = t.sorted()
         
+        // searching for character in s
         for character in 0..<s_string1.count {
+            
+            // if the character in s and t in this location dont match return the t character
             if s_string1[character] != t_string2[character] {
                 return t_string2[character]
             }
         }
         
+    
         return t_string2.last ?? " "
     }
 }
 
-var sol = Solution()
 
-sol.findTheDifference("z", "tyz")
 
 
 //: [Next](@next)

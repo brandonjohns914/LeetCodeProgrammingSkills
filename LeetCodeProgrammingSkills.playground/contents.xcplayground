@@ -3,5 +3,7 @@
     <pages>
         <page name='MergeStringsAlternately'/>
         <page name='FindtheDifference'/>
+        <page name='FirstOccuranceInString'/>
+        <page name='ValidAnagram'/>
     </pages>
 </playground>
