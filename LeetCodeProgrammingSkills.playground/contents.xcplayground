@@ -5,5 +5,6 @@
         <page name='FindtheDifference'/>
         <page name='FirstOccuranceInString'/>
         <page name='ValidAnagram'/>
+        <page name='RepeatedSubstringPattern'/>
     </pages>
 </playground>
