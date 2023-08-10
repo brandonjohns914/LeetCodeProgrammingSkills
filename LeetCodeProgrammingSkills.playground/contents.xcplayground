@@ -6,5 +6,6 @@
         <page name='FirstOccuranceInString'/>
         <page name='ValidAnagram'/>
         <page name='RepeatedSubstringPattern'/>
+        <page name='MoveZeroes'/>
     </pages>
 </playground>
